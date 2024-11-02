@@ -1,3 +1,8 @@
+# Publishing notes:
+ 1. update notes in separate private repo
+ 2. run github action
+ 3. https://github.com/hulmaker/quartz/actions/workflows/deploy.yml
+
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
