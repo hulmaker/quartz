@@ -18,18 +18,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          submodules: true
           fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Update references
+      - name: Git Submodule Update
+        run: git pull --recurse-submodules
+        run: git submodule update --remote --recursive
+        run: ls -la notes
+        run: ls -la notes/notes
       - name: Install Dependencies
         run: npm ci
-      - name: Update Notes
-        run: git submodule update --recursive --remote
-      - name: check if notes exists 1
-        run: ls -la notes
-      - name: check if notes exists 2
-        run: ls -la notes/notes
       - name: Build Quartz
         run: npx quartz build --directory notes/notes
       - name: Upload artifact
