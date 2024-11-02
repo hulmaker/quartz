@@ -27,7 +27,7 @@ jobs:
       - name: Update Notes
         run: git submodule update --recursive --remote
       - name: Build Quartz
-        run: npx quartz build # run: npx quartz build --directory notes/notes
+        run: npx quartz build --directory notes/notes
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
