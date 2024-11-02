@@ -1,17 +1,20 @@
 name: Deploy Quartz site to GitHub Pages
- 
+
 on:
+  push:
+    branches:
+      - v4
   workflow_dispatch:
- 
+
 permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -27,7 +30,7 @@ jobs:
           node-version: 22
       # Update references
       - name: Git Submodule Update
-        run: | 
+        run: |
           git pull --recurse-submodules
           git submodule update --remote --recursive
       - name: Install Dependencies
@@ -38,7 +41,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
- 
+
   deploy:
     needs: build
     environment:
