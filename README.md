@@ -7,11 +7,10 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 
 🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
- # Setup
+# Setup
  1. fork [jackyzha0/quartz](https://github.com/jackyzha0/quartz)
  2. Use the [ExplicitPublish](https://quartz.jzhao.xyz/plugins/ExplicitPublish) plugin, setup layout, etc...
  3. create a private repo for storing notes, connect it to your obsidian vault.
-
  4. Generate personal access token and set it as an action secret to the forked quartz repo
  5. setup [hosting](https://quartz.jzhao.xyz/hosting#github-pages) via GitHub pages
  7. change the build pipeline to pull submodules with using the PAT secret
