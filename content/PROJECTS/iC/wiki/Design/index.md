@@ -1,1 +1,0 @@
-Space pro proces design reseni - prakticky zamereni, tvorba dokumentace

@@ -1,8 +1,0 @@
-- We live in industrial revolution - ai will replace many jobs. It will manage people.
-- Many products will emerge and many products will be completely redesigned from the ground up
-- new unicorns will come into existence 
-- most customer support will be automatized - not just tier 1, fully, with multi step resolution and execution
-- the prototype cost will go down very fast, everyone will be able to create MVP in days rather than months - ideas are everything 
-- ai is bad at designing systems at larger scale 
-- more software = more difficult bugs. Everyone is a programmer. Everyone will create problems that actually programmers would fix.
-- it will be more difficult to become a senior programmer in future. Juniors won't push through the struggle to stop being juniors 

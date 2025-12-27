@@ -1,5 +1,0 @@
-- Clickup task - [86bwxm848](https://app.clickup.com/t/86bwxm848)
-- Zákazník by měl být schopný vidět historii
-- Odstranit příslušné EGs z reportu
-- Nastavit monitoring - senzor do group trash (v budoucnu bude jinak)
-- Nastavit cloud - chci, aby bylo jasné, že senzor neměří a proto je tam nula - nastavit třeba NA (not available)

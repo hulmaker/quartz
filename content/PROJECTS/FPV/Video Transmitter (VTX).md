@@ -1,1 +1,0 @@
-Bere signal z kamery a posila ho do prostoru. Velikost a power souvisi s range

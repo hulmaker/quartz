@@ -1,1 +1,0 @@
-Prijima signal z radia a posila to do FC. Dej pozor aby to sedelo na tvoje radio.

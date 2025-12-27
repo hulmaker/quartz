@@ -1,1 +1,0 @@
-Tady si zapisuju poznamky z jednotlivych support akci, ale v jednu chvili me to prestalo bavit. Proto bude lepsi se kouknout na clickup do Support space na uzavrene tasky

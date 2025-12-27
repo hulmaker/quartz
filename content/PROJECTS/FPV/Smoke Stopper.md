@@ -1,1 +1,0 @@
-Kdyz zapojis baterku a mas spojeny zdroj se zemi, tak to zabrani tomu aby se ti usmazil FC. Je to vrele doporucovane, kup to.

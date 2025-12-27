@@ -1,1 +1,0 @@
-Rozvadi energii z baterie do komponent, nekdy samostatna komponenta, nekdy soucasti [[Flight Controller (FC)]]

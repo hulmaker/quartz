@@ -1,1 +1,0 @@
--   Conclusions  that start with a paragraph summarizing your main findings and ends with a paragraph describing where you would move in studying ethics ans economics if yiou had time for it
