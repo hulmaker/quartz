@@ -21,20 +21,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: true
           fetch-depth: 0
           token: ${{ secrets.PAT }}
           persist-credentials: true
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      # Configure submodule authentication and update
-      - name: Configure and update submodules
-        run: |
-          git config --file .git/config submodule.notes.url "https://${{ secrets.PAT }}@github.com/hulmaker/notes.git"
-          git submodule sync
-          git submodule update --init --recursive --remote
-      # Update references
+          # Update references
       - name: Git Submodule Update
         run: |
           git pull --recurse-submodules
