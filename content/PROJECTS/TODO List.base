@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("todo")
+    order:
+      - file.folder
+      - file.name
+      - file.tags
+      - date
+    sort:
+      - property: file.tags
+        direction: DESC
+    columnSize:
+      file.folder: 112
+      file.name: 297
+      file.tags: 324

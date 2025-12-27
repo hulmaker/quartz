@@ -1,0 +1,1 @@
+Napojuje se na [[Electronic speed controller (ESC)]] aby vyhlazoval kolisani baterky.

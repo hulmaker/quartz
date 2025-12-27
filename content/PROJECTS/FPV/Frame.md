@@ -1,0 +1,1 @@
+Racing 4in, freestyle 5in, small <= 3in, large >= 7in

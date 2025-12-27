@@ -1,0 +1,16 @@
+- Odstartoval jsem moshpit na Strahov Open Air 2024 na vypsanou fixu. Moshpit trval celou dobu trvání koncertu.
+- Pobodal jsem se rampouchem do leveho prsa a mam tam jizvu
+- Zavrel jsem si nos do lednice kdyz jsem vecer v polospanku hledal co si dam
+- Splachnul jsem brachovi kalhoty od pyzama do zachoda jako pomstu za to ze mi splachnul magnetku
+- S Anickou jsme na Lipne dopadlovali na ostrov, na kterem jsme Házeli zabicky s Velevrubem malířským (žijící škeble)
+- V noci jsem vylezl jsem na strechu Ceskeho geologickeho ustavu: Pod Bruskou 132/2 (po leseni)
+- Vylezl jsem na vrchol Pražského metronomu
+- Namesti Miru
+- Havaroval jsem s dronem v CHKO Blaník a na stromě shořel motor. Kdyby to chytlo jdu sedět.
+- Byl jsem catcallovany bezdomačkou "Wie viel komme fike"
+- Zabouchnul jsem prsty do šoupaček od dodávky Klicperovi
+- V Alpách jsem zavřel klíče od auta do kufru. Klára s Mámou jely na otočku s náhradním klíčem.
+- vylezl jsem na strahovský stadion a v noci ho oblékl dokola. Seděl jsem na kraji 
+- rozbil jsem zadkem čelní sklo auta
+- běžel za mnou mrzák bezdomovec protože si myslel že jsem mu vzal berle
+- zvrknul jsem si oba kotníky najednou 

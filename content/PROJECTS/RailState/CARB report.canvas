@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"cfdf8d7d15fefd08","type":"group","x":-600,"y":-600,"width":990,"height":140,"color":"4","label":"Rating"},
+		{"id":"cc56ed592df63bfa","x":580,"y":170,"width":250,"height":60,"color":"5","type":"text","text":"API - sensor availability"},
+		{"id":"752f7dc4cf3fd5db","type":"text","text":"API - CSV data","x":580,"y":290,"width":250,"height":60,"color":"5"},
+		{"id":"c7960557d888b7aa","type":"text","text":"periodic rating entrypoint","x":-243,"y":-780,"width":264,"height":60,"color":"4"},
+		{"id":"dcfed6cacd21b962","type":"text","text":"coupling rating (regular)","x":-580,"y":-580,"width":190,"height":100,"color":"4"},
+		{"id":"cabed0c62cb09637","type":"text","text":"existing projects (4)","x":-369,"y":-580,"width":250,"height":100,"color":"4"},
+		{"id":"1284b35f41c36622","type":"text","text":"CARB project\nlocomotives, car features","x":-90,"y":-580,"width":220,"height":100,"color":"4"},
+		{"id":"945ed119911cdef5","type":"text","text":"car features (CARB)","x":150,"y":-580,"width":220,"height":100,"color":"4"},
+		{"id":"2c438a310afd50f4","x":40,"y":-140,"width":270,"height":80,"color":"5","type":"text","text":"CARB evaluation"},
+		{"id":"3db13966814781dc","x":-35,"y":40,"width":420,"height":400,"color":"5","type":"file","file":"PROJECTS/RailState/RS - CARB report.md"},
+		{"id":"673c03d2f43c15b2","x":-384,"y":-140,"width":284,"height":80,"color":"5","type":"text","text":"car features evaluation - rate_ls_car_features"},
+		{"id":"35c6efe808dc8765","type":"text","text":"car features report sheet","x":-352,"y":40,"width":221,"height":60,"color":"5"},
+		{"id":"7494eecd9ce0383f","x":-715,"y":-140,"width":270,"height":80,"color":"5","type":"text","text":"Coupling evaluation - rate_ls_coupling_detection"},
+		{"id":"3ca2a0028cca265d","x":-675,"y":40,"width":190,"height":60,"color":"5","type":"text","text":"coupling report sheet"},
+		{"id":"59184fac87825312","type":"text","text":"rating evaluation entrypoint","x":-383,"y":-340,"width":283,"height":60,"color":"5"},
+		{"id":"07e0043f3efcfb64","x":-35,"y":520,"width":420,"height":140,"type":"file","file":"PROJECTS/RailState/RS - CARB report design.md"}
+	],
+	"edges":[
+		{"id":"6d1646ac83d80492","fromNode":"c7960557d888b7aa","fromSide":"bottom","toNode":"cfdf8d7d15fefd08","toSide":"top","label":"Creates annotation jobs"},
+		{"id":"0e54c5777eb4a916","fromNode":"7494eecd9ce0383f","fromSide":"bottom","toNode":"3ca2a0028cca265d","toSide":"top"},
+		{"id":"049c70cdce077965","fromNode":"673c03d2f43c15b2","fromSide":"bottom","toNode":"35c6efe808dc8765","toSide":"top"},
+		{"id":"673781d00422ee56","fromNode":"2c438a310afd50f4","fromSide":"bottom","toNode":"3db13966814781dc","toSide":"top"},
+		{"id":"aa13f931811c4294","fromNode":"cc56ed592df63bfa","fromSide":"left","toNode":"3db13966814781dc","toSide":"right"},
+		{"id":"d23ab5e84dbd592c","fromNode":"752f7dc4cf3fd5db","fromSide":"left","toNode":"3db13966814781dc","toSide":"right"},
+		{"id":"8583c889bc20c3eb","fromNode":"3db13966814781dc","fromSide":"bottom","toNode":"07e0043f3efcfb64","toSide":"top"},
+		{"id":"b01b37df7428a19d","fromNode":"59184fac87825312","fromSide":"bottom","toNode":"7494eecd9ce0383f","toSide":"top"},
+		{"id":"619e328c89204e9e","fromNode":"59184fac87825312","fromSide":"bottom","toNode":"673c03d2f43c15b2","toSide":"top"},
+		{"id":"c60a40e4c544fbec","fromNode":"59184fac87825312","fromSide":"bottom","toNode":"2c438a310afd50f4","toSide":"top"}
+	]
+}
