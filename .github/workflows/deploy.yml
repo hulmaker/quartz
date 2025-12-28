@@ -23,13 +23,6 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Checkout Submodules
-        env:
-          TOKEN: ${{ secrets.PAT || github.token }}
-        run: |
-          git config --global url."https://git:$TOKEN@github.com/".insteadOf "git@github.com:"
-          git config --global url."https://git:$TOKEN@github.com/".insteadOf "https://github.com/"
-          git submodule update --init --recursive --remote
       - uses: actions/setup-node@v4
         with:
           node-version: 22
