@@ -1,0 +1,3 @@
+Sbirej jednotlive pripady, davej k nim reseni, udelej to tak, aby se to mohlo po nejake dobe vyhodnotit. Chces vyrobit postup, na co se zeptat, jake informace od zakaznika ziskat a jake jsou nejcastejsi problemy, nejcastejsi reseni a jejich slozitost a zda-li to lze resit v ramci supportu, nebo to musi na dev
+
+Sahara - OC Cestlice - chodi malo lidi - pod [ics-802](https://monitoring.ic-systems.ai:4001/app/ui/device/7ce92472-d720-4902-bb4e-f4a4b05c964c) nainstalovali saharu, config je spatne, nutne prekonfigurovat
