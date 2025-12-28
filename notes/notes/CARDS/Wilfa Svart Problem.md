@@ -1,9 +1,10 @@
 ---
 date: 2024-06-02
 tags:
-  - hardware
-  - coffee
+  - on/food
+  - on/HW
 ---
+Wilfa swart je mlýnek na [[_Coffee]]
 
 Mlýnek se zakuckává, je to nejspíš problém šedivého kapacitoru.
 [reddit](https://www.reddit.com/r/Coffee/comments/rs0nzv/wilfa_svart_grinder_problem_psa/)

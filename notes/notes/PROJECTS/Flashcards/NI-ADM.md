@@ -48,7 +48,7 @@ Final sample weights are summarized over all predictions and normalized:
 
 
 
-Ensemble metody - Pipiš princip GradientBoosting #flashcard 
+Ensemble metody - Popiš princip GradientBoosting #flashcard 
 [yt](https://youtu.be/3CC4N4z3GJc), [lecture 1](https://courses.fit.cvut.cz/NI-ADM/@B212/lectures/index.html), [lecture notes](https://courses.fit.cvut.cz/NI-ADM/@B212/lectures/files/NI-ADM-03-04-notes.pdf)
 N weak learners, iterativní učení, výsledná predikce je vážená kombinace slabých predikcí
 Loss musí mít druhou derivaci (Taylorův polynom)
@@ -123,21 +123,6 @@ $$
 
 
 
-Describe normal equation,  $\hat{\boldsymbol{w}}_\lambda$ estimation and prediction $Y$ for the linear basis ridge regression #flashcard 
-Normal equation: $\boldsymbol{\phi^TY -  \phi^T\phi w} - \lambda \boldsymbol{w = 0}$
-solution for $\lambda > 0$: $\hat{\boldsymbol{w}}_\lambda = (\boldsymbol{\phi^T\phi} + \lambda \boldsymbol{I})^{-1} \boldsymbol{\phi^TY}$
-prediction of $Y$ at $x$: $\hat{Y}=\boldsymbol{\hat{w}_\lambda^T \varphi(x)}$
-<!--ID: 1691251771710-->
-
-
-
-$RSS_\lambda(w) = \mid\mid \boldsymbol{Y-\phi w} \mid\mid^2 + \lambda w^Tw$, definujme $\boldsymbol{w = \phi^T \alpha}$, kde $\boldsymbol{\alpha} \in \mathbb{R}^N$. Jaká je (ne)rovnost mezi $\min RSS_\lambda(w)$ a $\min RSS_\lambda(\alpha)$? #flashcard 
-$\min RSS_\lambda(w) \leq \min RSS_\lambda(\alpha)$, jelikož když používám $\alpha$, tak mám menší prostor než s $w$. 
-Máme ale theorem, který říká, že jsou ta minima stejná a že se dají $w$ a $\alpha$ vzájemně pro to minimum převádět.
-<!--ID: 1729010154050-->
-
-
-
 # Jadrove metody, Jadrova Regrese,  Kernel Trick
 
 
@@ -151,26 +136,8 @@ $A$ is indefinite $\iff \exists x, y \in \mathbb{R}^{n, n}, x^TAx \gt 0 \land y^
 <!--ID: 1729010154051-->
 
 
-
-Define kernel function $k(x, y), k: \mathbb{R}^p \times \mathbb{R}^p \to \mathbb{R}$, define Gram matrix (ADM) #flashcard 
+Define kernel function $k(x, y), k: \mathbb{R}^p \times \mathbb{R}^p \to \mathbb{R}$ Write examples of kernels used in linear models (ADM) #flashcard 
 $k(\boldsymbol{x}, \boldsymbol{y}) = \boldsymbol{\varphi(x)^T}\boldsymbol{\varphi(y)}$, where $\boldsymbol{\varphi(x)} = (\varphi_1(\boldsymbol{x}), ..., \varphi_M(\boldsymbol{x}))^T$
-Gram matrix: Given a kernel function $k$ and inputs $\boldsymbol{x}_1, . . . ,\boldsymbol{x}_n \in  \chi$, the $n \times n$ matrix $G = (G_{i,j})$, where $G_{i,j} = k(\boldsymbol{x}_i, \boldsymbol{x}_j)$
-<!--ID: 1729010154052-->
-
-
-
-Formulate the linear model for regression and classification in terms of a dual representation - kernel trick + Gram matrix. Using the kernel trick, the basis functions are then given implicitly. #flashcard 
-$RSS_\lambda(\alpha) = \mid\mid Y-G\alpha \mid\mid^2 + \lambda\alpha^TG\alpha$, where $G_{i, j}=k(x_i, x_j)$
-Minimiser for $\lambda > 0$ is given: $\hat{\alpha}=(G+\lambda I)^{-1}Y$
-Prediction of $Y$ at $x$ is: $\hat{Y}=\sum^N_{x=1}\hat{\alpha}_ik(x_i, x)=\hat{\alpha}^Tk(x)$
-* input vector $x$ enters only in the form of scalar products
-* The replacement of scalar products with a kernel function is known as the kernel trick
-* Now the natural extension is to start with a kernel without specifying the basis functions explicitly (allows us to use feature spaces of high, even infinite, dimensionality)
-<!--ID: 1729010154053-->
-
-
-
-Write examples of kernels used in linear models (ADM) #flashcard 
 * **Linear kernel**: $k(x, y)=x^Ty$
 * **Polynomial kernel**: $k(x, y)=(x^Ty+1)^n$
 * **RBF kernel**: $k(\boldsymbol{x}, \boldsymbol{y})=\mathrm{e}^{-\frac{\|x-y\|^2}{2 \sigma^2}}$
@@ -178,19 +145,9 @@ Write examples of kernels used in linear models (ADM) #flashcard
 <!--ID: 1729010154054-->
 
 
-
-What are kernel machines, vector machines and sparse vector machines? (ADM) #flashcard 
-Kernel machine is model $f(x)=\sum^K_{j=1}\alpha_jk(x, \mu_j)$, where $\mu_1, ... \mu_K \in \chi$ are some centers
-Kernel machines corresponds to linear basis expansion with $\varphi_j(\cdot)=k(\cdot, \mu_j)$
-Vector machines are special case of Kernel machines $f(x)=\sum^K_{j=1}\alpha_jk(x, x_j)$
-Sparse vector machines are vector machines where $\alpha_j = 0$ for many points
-<!--ID: 1729010154055-->
-
-
-
 # Support Vector Machine (SVM): separabilní a neseparabilní případ
 
-Popiš **SVM** - lineárně separabilní případ #flashcard 
+Popiš Support Vector Machine (**SVM**) a co vlastně minimalizujeme? - lineárně separabilní případ #flashcard 
 * **Discriminant function**: bod lze rozdělit na 2 vektory. Jeden je paralelní a druhý kolmý s decision boundary. Kolmý vektor je úměrný vzdálenosti bodu od hranice. Bodům přidělíme znaménko v závislosti na jaké straně od hranice jsou.
 Vzdalenost i-teho bodu $\varphi(x_i)$ je $r_i=\frac{f(x_i)}{\mid\mid w \mid\mid}$. Hledáme tudíž:
 $$\max_{w, w_0} \min_i \frac{Y_i(w^T\varphi(x_i)+w_0)}{\mid\mid w \mid\mid} \propto \min_i\frac{1}{\mid\mid w \mid\mid}$$
@@ -199,7 +156,7 @@ $$\max_{w, w_0} \min_i \frac{Y_i(w^T\varphi(x_i)+w_0)}{\mid\mid w \mid\mid} \pro
 
 
 
-Popiš **SVM** - lineárně neseparabilní případ #flashcard 
+Popiš Support Vector Machine (**SVM**) a co vlastně minimalizujeme? - lineárně neseparabilní případ #flashcard 
 Řešení, kde $Y_i(w^T\varphi(x_i)+w_0)\geq 1$ neexistuje, proto relaxujeme a penalizujeme body na špatné straně. $\xi_i= \mid Y_i - f(x_i)\mid \text{ (for the wrong side) } 0 \text{ otherwise}$
 Pak optimalizujeme: $\mid_{w, w_0, \xi} \frac{1}{2} \mid\mid w\mid\mid^2 + C\sum^N_{i=1}\xi_i$
 <!--ID: 1729010154057-->

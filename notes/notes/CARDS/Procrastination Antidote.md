@@ -1,8 +1,10 @@
 ---
 tags:
-  - psychology
-  - productivity
+  - on/psychology
+  - on/productivity
+  - type/tutorial
 ---
+[[Burnout]], [[Willpower & Anterior Mid-Cingulate Cortex]]
 
 * Predstav si budoucnost, ktera nastane kdyz budes porad jen prokrastinovat.
 * Cena obetovane prilezitosti

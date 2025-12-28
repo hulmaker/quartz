@@ -1,3 +1,10 @@
+---
+tags:
+  - on/ai
+  - on/statistics
+  - on/DS
+---
+
 ### Tomek Links
 Remove both noise and borderline examples
 Tomek link:

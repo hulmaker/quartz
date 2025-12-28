@@ -1,3 +1,9 @@
+---
+tags:
+  - type/list
+  - type/poetry
+---
+
 babička 
 bušit 
 dickinson 

@@ -1,6 +1,7 @@
 ---
 tags:
-  - ML
+  - on/ai
+  - on/algorithm
 ---
 
 ## simple genetic algorithm

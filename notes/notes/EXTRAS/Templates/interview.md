@@ -24,7 +24,9 @@
 * Penize, pracovni pomer
 * Byl byste ochotny nam dat kontakt na nekoho z minule prace co by nam mohl poskytnout referenci?
 * Pracoval byste radši na neznámém a novém projektu, nebo radši na problematice co znáte a máte povědomí o řešení?
-* work hard, or work smart?
+* When I call your last employer and ask them what you need to work on the most, what would they tell me?
+* What's one thing that you hated about your last job.
+* Describe your best boss.
 
 #### finální uvolnění
 * řekněte vtip

@@ -1,3 +1,10 @@
+---
+tags:
+  - on/life
+  - on/business
+  - type/plan
+---
+
 Přijmy za měsíc: 40-80 k
 Vydaje za měsíc: bydleni+jídlo+sport 8+8+4 k = 20 k
 Zbyde: 20-60 k/m

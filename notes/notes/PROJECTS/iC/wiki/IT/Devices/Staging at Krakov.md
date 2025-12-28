@@ -1,4 +1,3 @@
-tags: #staging #testing 
 
 in order to get directly to a sensor on staging you need to get to 
 ![[Krakov's gateway]] 

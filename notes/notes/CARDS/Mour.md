@@ -1,6 +1,6 @@
 ---
 tags:
-  - poetry
+  - type/poetry
 ---
 1. Vidím rouru, oblak mouru. 
 2. Mouru máme plnou strouhu. 

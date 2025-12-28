@@ -1,11 +1,13 @@
 ---
 tags:
-  - productivity
-  - psychology
-  - youtube
-  - podcast
+  - on/productivity
+  - on/psychology
+  - source/yt
+  - source/podcast
 date: 2024-06-12
 publish: true
+author: Andrew Huberman
+link: https://youtu.be/nDLb8_wgX50?t=2770
 ---
 > Embrace the suck. There will always be a friction.
 # What is it
@@ -31,11 +33,11 @@ From: [[Andrew Huberman]], [[David Goggins]]
 ![](https://youtu.be/nDLb8_wgX50?t=2770)
 
 # Toughts
-** How this relates to [[Burnout]]?**
+**How this relates to [[Burnout]]?**
 > [[Burnout]] is an extreme effort with a lack of reward.
 
 This concept encourages you to put in an effort in something you don't want to do. But there should be always a reward. Otherwise it can lead to burnout.
 
-
+Related videos: [Chris Williamson](https://youtu.be/8OHYynw7Yh4?si=14oCNTW0PPz62Uq0)
 Related to:
 [[Consistency]]

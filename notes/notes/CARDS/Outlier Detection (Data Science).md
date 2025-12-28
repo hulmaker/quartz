@@ -1,5 +1,13 @@
+---
+tags:
+  - on/ai
+  - on/statistics
+  - note/develop
+  - note/tidy
+  - on/DS
+---
+
 [[NI-PDD]], [[NI-ZI-05]]
-#note/tidy #note/develop 
 
 ## Metody detekce odlehlých hodnot
 **Kouknu a vidim**:

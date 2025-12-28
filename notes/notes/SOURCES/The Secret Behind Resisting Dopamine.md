@@ -1,23 +1,20 @@
 ---
 tags:
-  - podcast
-  - productivity
-  - psychology
-  - youtube
+  - source/podcast
+  - source/yt
+  - on/psychology
+  - on/productivity
 link: https://youtu.be/6CWq8wyS90o?si=nWJBPngZJLk1_Q4I
 author: HealthyGamerGG
+publish: true
 ---
-**Glossary**:
-High Dopaminergic Activity (HDA) - akce uvolňující mnoho dopaminu
-Low Dopaminergic Activity (LDA) - akce uvolňující málo dopaminu
+Related to: [[Procrastination Antidote]], [[Consistency]]
 
 [hodne dulezity uryvek](https://www.youtube.com/shorts/HMLlpfiHjsE)
 vypracuj a zjistit [[Suppressed Emotions]]
 
-
 [Nucleus accumbens](https://en.wikipedia.org/wiki/Nucleus_accumbens):
 * action -> dopamine -> pleasure -> reinforce action
-
 
 Dopamine detox not good - depleted dopamine results in less action
 
@@ -25,6 +22,10 @@ Dopamine detox not good - depleted dopamine results in less action
 * productive stuff in the morning
 * Don't touch phone for 1h
 * Don't turn on YT or anything for at least 4h
+
+**Glossary**:
+High Dopaminergic Activity (HDA) - akce uvolňující mnoho dopaminu
+Low Dopaminergic Activity (LDA) - akce uvolňující málo dopaminu
 
 ### Dopamine - Lemon squeezing
 - Lemon is fresh in the morning (dopamine bank is full)

@@ -1,7 +1,8 @@
 ---
 tags:
-  - youtube
-  - psychology
+  - source/yt
+  - on/psychology
+  - on/productivity
 date: 2024-05-19
 link: https://youtu.be/-xqPVxsFdP4?si=hbIO4SmTtMgy4m-u
 ---

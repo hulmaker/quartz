@@ -1,8 +1,10 @@
 ---
 tags:
-  - food
-  - recipes
+  - on/food
+  - type/recepie
+  - source/blog
 link: https://www.chilipeppermadness.com/recipes/how-to-make-hot-sauce-from-dried-peppers/
+publish: true
 ---
 [Video](https://www.youtube.com/watch?v=nrgwfS2EqjI) - neni tak dobre
 [Ed Currie](https://www.youtube.com/watch?v=A8nhVS74P_I)

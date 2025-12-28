@@ -1,3 +1,9 @@
+---
+tags:
+  - on/algorithm
+  - note/develop
+---
+
 
 * sets/groups consists of items
 * each set/group has a representative

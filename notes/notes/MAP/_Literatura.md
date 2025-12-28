@@ -1,7 +1,7 @@
 ---
 tags:
-  - MOC
-  - poetry
+  - type/poetry
+  - type/MOC
 ---
 [[Vtipy]]
 [[Nesprostý Slovník]]
@@ -15,10 +15,11 @@ tags:
 [[Developer]]
 
 # Písničky
-[[Bolina]]
-[[Tomáš song]]
-[[Jeníček song]]
-[[Poklady Kulturního Dědictví]]
+- [[Bolina - Ballers Ode]]
+- [[Boujie Life]]
+- [[Tomáš song]]
+- [[Jeníček song]]
+- [[Poklady Kulturního Dědictví]]
 
 
 Eg Will tho mu ro di bag fra

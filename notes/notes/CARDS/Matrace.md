@@ -1,8 +1,7 @@
 ---
 tags:
-  - poetry
+  - type/poetry
 ---
-
 Halí, belí, halí, belí,
 Pročpak spíme na posteli?
 Páč nespíme ve stoje,

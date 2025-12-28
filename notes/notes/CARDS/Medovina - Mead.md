@@ -1,5 +1,21 @@
+---
+tags:
+  - on/food
+  - type/recepie
+publish: true
+---
+
+TODO koupit:
+- tvarnice: https://eshop.kb-blok.cz/wine-blok-cihlove-cervena/
+- tvarnice2: https://www.betonfejta.cz/svahove-tvarnice
+
+
 [[Brewing Notes]]
 [[Pasteurization]]
+
+UDELEJ TOHLE: https://www.youtube.com/shorts/FnyiJean8hc (karamelizovany med s ciderem Bochet Cyser)
+
+Freeze it! https://www.youtube.com/shorts/sny38b2c1_U - alkohol mrzne pri hodne nizkych teplotach, takze rozmrzne jako prvni. TODO: nech vsechno zmrznout a to co vytece jako prvni je silnejsi.
 
 Google sheet: https://docs.google.com/spreadsheets/d/1d6Ns0tsXltLw7HbbsFMNP7C8xQHNYccNsMNWDYlcPzM/edit?usp=sharing
 
@@ -17,6 +33,9 @@ Odkazy:
 * [sklo 200kc](https://www.pivoteka.cz/demizon-sklo-5l-s-kvasnou-zatkou-144043), [sklo 100kc](https://www.domovarnik.cz/demizon-5-l-holy-s-uchem?srsltid=AfmBOooT-kZDoc7ZcyF8qS6KrCrGT0mJZ9XNTBnXLJMUcSiykjdg6QZT) [plast 220kc](https://topdomacipotreby.cz/eshop/i/Demizony/multifunkcni_fermentacni_demizon_5l/)
 kit: https://www.po-domacku.cz/produkt17
 
+# Infection
+- [diagram](https://dointhemost.org/mold/)
+- [wiki](https://meadmaking.wiki/en/faq/infection)
 
 # Bochet
 **Bochet** is a type of mead made from honey that has been caramelized. Black color.

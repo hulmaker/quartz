@@ -1,7 +1,7 @@
 ---
 tags:
-  - ML
-  - paper
+  - on/ai
+  - source/paper
 link: https://arxiv.org/abs/1401.2651
 ---
 [David White, An Overview of Schema Theory, arxiv, 2014](https://arxiv.org/abs/1401.2651)

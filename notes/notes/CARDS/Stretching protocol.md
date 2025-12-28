@@ -1,3 +1,14 @@
+---
+tags:
+  - on/life
+  - on/health
+  - on/workout
+  - type/plan
+---
+
+
+[[Flexibility, Mobility]], [[_Sport]]
+
 Studie-minimálně 5 min týdně na sval, po blocích o 30s
 
 

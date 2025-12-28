@@ -1,6 +1,3 @@
-tags: #repository #footfall #detections #tracking
-tagy test
-
 ## Prerequisities
 - you need to have [[ssh-key in gitlab]], so you don't have to add credentials every time you try to pull something
 

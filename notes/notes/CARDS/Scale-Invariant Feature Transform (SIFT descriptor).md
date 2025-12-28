@@ -1,8 +1,8 @@
 ---
 tags:
-  - CV
-  - ML
-  - paper
+  - on/ai
+  - on/CV
+  - source/paper
 link: https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94
 ---
 It is a [[Keypoint Descriptor]]

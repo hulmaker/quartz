@@ -1,7 +1,7 @@
 ---
 tags:
-  - food
-  - recipes
+  - on/food
+  - type/recepie
 ---
 
 - Kuřecí na kostičky

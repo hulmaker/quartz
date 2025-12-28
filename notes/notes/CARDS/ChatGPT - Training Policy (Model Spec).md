@@ -1,9 +1,11 @@
 ---
 tags:
-  - LLM
-  - AI
+  - on/llm
+  - on/ai
 date: 2024-05-23
 ---
+[[Natural Language Processing (NLP)]], [[Generative AI]], [[Transformer, Attention]]
+
 The model is trained using: Reinforcement using human feedback (RLHF) method
 Paper [arxiv:2203.02155](https://arxiv.org/abs/2203.02155)
 

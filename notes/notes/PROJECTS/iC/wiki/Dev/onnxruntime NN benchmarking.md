@@ -1,4 +1,3 @@
-#script
 
 You might want to export and quantize the model first - [[ONNX export and quantization]]
 

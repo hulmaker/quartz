@@ -1,4 +1,9 @@
-Vlado Erdman https://www.linkedin.com/in/vlado-erdman/
+---
+tags:
+  - on/business
+  - log/meeting
+---
+[[Vlado Erdman]]
 
 Reccomender obleceni - udelas si profil, posles fotky z pinterestu a ono ti to bude doporucovat obleceni z ruznych obchodu. Styly si muzes ulozit a mit to i podle prilezitost (sport, divadlo...)
 

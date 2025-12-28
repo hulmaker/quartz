@@ -1,7 +1,7 @@
 ---
 tags:
-  - ML
-  - paper
+  - on/ai
+  - source/paper
 link: https://arxiv.org/abs/1903.06733
 ---
 

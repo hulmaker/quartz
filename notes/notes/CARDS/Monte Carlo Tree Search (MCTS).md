@@ -1,7 +1,8 @@
 ---
 tags:
-  - ML
-  - RL
+  - on/ai
+  - on/RL
+  - note/develop
 ---
 
 Powerfull [[Reinforcement Learning]] algorithm suitable for combinatoric games

@@ -1,7 +1,8 @@
 ---
 tags:
-  - ML
-  - paper
+  - on/ai
+  - source/paper
+  - note/develop
 link: https://arxiv.org/abs/1502.03167
 ---
 Makes the training faster and more stable.

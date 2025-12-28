@@ -1,9 +1,10 @@
 ---
 tags:
-  - youtube
-  - psychology
+  - source/yt
+  - on/psychology
 date: 2024-05-19
 link: https://youtu.be/AS7wrOX9q4w?si=oPFKbZja8h7uoGUD
+author: HealthyGamerGG
 ---
 
 # About

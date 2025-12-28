@@ -1,7 +1,8 @@
 ---
 tags:
-  - food
-  - recipes
+  - on/food
+  - type/recepie
+publish: true
 ---
 [[_Food]]
 

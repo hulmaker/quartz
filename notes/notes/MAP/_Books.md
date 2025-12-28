@@ -1,8 +1,8 @@
 ---
 tags:
-  - book
-  - read
-  - MOC
+  - todo/read
+  - on/book
+  - type/MOC
 ---
 
 # Not Read
@@ -20,6 +20,14 @@ The art of war
 Bushido
 The art of money getting 
 Walden
+
+1. THE GULAG ARCHIPELAGO 
+2. 1984 
+3. THE SOVEREIGN INDIVIDUAL 
+4. THE CREATURE FROM JEKYLL ISLAND 
+5. BRAVE NEW WORLD 
+6. FARENHEIT 451 
+7. THE TYNDALE BIBLE
 
 # In Progress
 

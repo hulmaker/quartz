@@ -4,9 +4,11 @@ tags:
 link: "[[_Gifts]]"
 ---
 # Seznam co uz mam
-Civivi Badlands Vagabond
-sencut
-korvid
+- Civivi Badlands Vagabond - jira ho ztratil
+- SENCUT Sachse - jade
+- Kansept XL Korvid - 1.6k
+- CJRB Prado - 1.2k
+- CJRB Pyrite Steel - 1.1k
 
 # Seznam nožů co bych jednou chtěl mít
 

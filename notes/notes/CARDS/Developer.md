@@ -1,6 +1,6 @@
 ---
 tags:
-  - poetry
+  - type/poetry
 ---
 # Developer
 

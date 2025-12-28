@@ -1,3 +1,13 @@
+---
+tags:
+  - on/ai
+  - on/llm
+  - on/CV
+---
+[[Computer Vision (CV)]], [[Natural Language Processing (NLP)]], [[Generative AI]]
+
+[[ChatGPT - Training Policy (Model Spec)]]
+
 [[NI-MVI]]
 #note/tidy 
 

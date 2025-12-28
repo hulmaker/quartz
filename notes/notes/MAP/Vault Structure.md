@@ -1,52 +1,24 @@
-you can restructure the vault to the following theme.
-More on the topic can be found in the LYT Kit vault
-
+---
+publish: true
 ---
 
-Encounters - fleeting notes - reqire action
-Atlas - spacial map
-Calendar - temporal map, daily, meeting, plan
-Cards - bits of knowledge - ideas, things, concepts, people, ...
-Extras - attachments, media, atd
-Sources - books, articles, yt, podcasts, papers
-Spaces - Projects
-
-My structure:
-MAP: MOC, dashbords, logs, overviews, datascopes
-CALENDAR: time based info> daily, journal, meetings, ...
-CARDS: ideas, things, people, concepts, statements, recepies
-EXTRAS/MEDIA: attachments, media, manuals, templates, drawings
-SOURCES: books, articles, yt, podcasts, papers, movies
-PROJECTS: life, work, aiclub, fpv, ...
-ENCOUNTERS: fleeting notes - to necham v rootu
+# My Vault Structure:
+- **/**: fleeting notes vznikají v rootu, pak je zařadím a upravím
+- **MAP**: MOC, dashbords, logs, overviews, datascopes
+- **CALENDAR**: time based info> daily, journal, meetings, ...
+- **CARDS**: ideas, things, people, concepts, statements, recepies
+- **EXTRAS**: attachments, media, manuals, templates, drawings
+- **SOURCES**: books, articles, yt, podcasts, papers, movies
+- **PROJECTS**: life, work, aiclub, fpv, ...
 
 
-Hierarchy in tags: like
+# Tags
+- **Require actions**: #todo/finish  #todo/read 
+- **state of the note - might require action**: #note/develop #note/tidy 
+- **logging**: #log/event #log/meeting #log/development
+- **covers a topic**: #on/mathematics #on/productivity #on/algorithm 
+- **note origin**:  #source/blog #source/paper #source/book #source/yt #source/podcast
+- **note type**: #type/MOC #type/list #type/tutorial 
 
-### requires action:
-#todo/finish
-
-#note/question
-#note/tidy
-#note/develop
-
-### Description
-#log/event
-#log/meeting
-
-topics:
-#on/productivity
-#on/psychology
-#on/mathematics
-
-origin:
-#source/blog
-#source/paper
-#source/book
-#source/yt
-#source/podcast
-
-# Plan
-create folder structure
-move notes into correct folders
-clean up tags
+# Publishing
+We use [[quartz]] to generate static pages. The homepage is the [[index]] note. To publish a note, add "publish: true" flag to metadata.

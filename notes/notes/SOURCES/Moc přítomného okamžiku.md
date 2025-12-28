@@ -1,6 +1,7 @@
 ---
 tags:
-  - book
+  - source/book
+  - on/psychology
 ---
 Myšlení je oddělitelné od vědomí
 

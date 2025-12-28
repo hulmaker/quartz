@@ -1,7 +1,7 @@
 ---
 tags:
-  - ML
-  - paper
+  - on/ai
+  - source/blog
 link: https://paperswithcode.com/method/layer-normalization
 ---
 

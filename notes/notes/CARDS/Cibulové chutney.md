@@ -1,8 +1,10 @@
 ---
 tags:
-  - food
-  - recipes
+  - on/food
+  - type/recepie
+  - source/blog
 link: https://www.vareni.cz/recepty/cibulove-chutney/
+publish: true
 ---
 # Ingredience 14 porcí - cca 1kg cibule
 
@@ -26,5 +28,3 @@ Na oleji orestujeme za stálého míchání cibuli a papričky do tmavě zlatova
 Vlažné chutney přendáme do předem sterilované sklenice a uzavřeme. Cibulové chutney skladujeme v chladu, kde vydrží alespoň měsíc. 
 
 Cibulové chutney podáváme jako přílohu k masům, ale samozřejmě najde uplatnění i při přípravě dalších pokrmů - jako jsou slané omelety se slaninou, toasty se sýrem. Výborně chutná i v nejrůznějších pomazánkách.
-
-# Notes

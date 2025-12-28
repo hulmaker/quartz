@@ -40,3 +40,46 @@ Heuristiky, triky:
 * **Arc-consistency**: filtrujeme možná ohodnocení i na základě relací mezi proměnnými.
 * unit-propagation: jednotkové klauzule v SAT ohodnocujeme jako první
 <!--ID: 1729010154067-->
+
+
+Jaký je problém lokalizace v robotice, na který musíme brát při plánování pohybu ohled? (SLAM) #flashcard 
+Senzory měří nepřesně a z měření proto nemůžeme dokonale vědět kde se nacházíme. Používáme proto pravděpodobnostní modely jako Kalman Filter, Monte-Carlo, Particle Filter, Bayes-update na odfiltrování šumu atd... Pravděpodobnost o lokaci aktualizujeme Bayesovou větou.
+<!--ID: 1751063698184-->
+
+
+
+Co je hierarchické plánování (Hierarchical Task Network) #flashcard 
+snaží se zmírnit potíže s příliš dlouhými plány pomocí jednodušších úkolů.
+* operátory jsou pro komplexnější akce a obsahují návod, jak operátor vykonat = metody
+* návod = rozklad na jednodušší úkoly + podmínky
+* Abstraktní procedura HTN postupně dekomponuje úkoly v síti
+	* přidává podmínky (precedence)
+	* lepší nasměrování k cíli než u klasického plánování - návrh metod a dekompozic dává prostor pro integraci expertních znalostí určité domény
+	* použitelné na úlohy reálné velikosti (ne jen hračky)
+<!--ID: 1751063698200-->
+
+
+
+
+Obecný popis algoritmu CDCL (conflict driven clause learning, splňování v logice) #flashcard 
+kombinuje BJ (backjumping), UP (unit propagation) a učení - učí se pomocí implikačního grafu, kde hledá konfliktní klausule. Je základem moderních řešičů.
+DECIDE() - ohodnotí další neohodnocenou proměnnou
+BCP() - jednotková propagace
+BACKTRACK() - zruší rozhodnutí na úrovních > level
+```python
+def CDCL():
+	if BCP() == "conflict": return "Unsatisfiable"
+	while True:
+		if not DECIDE():
+			return "Satisfiable"
+		while BCP() == "conflict":
+			backtrack_level = analyze_conflict()
+			if backtrack_level < 0:
+				return "Unsatisfiable"
+			BACKTRACK(backtrack_level)
+```
+Není nutné konstruovat implikační graf, stačí znát předchůdcovské klauzule.
+Po t krocích se zavádějí restarty
+Dole je CDCL pro sat-modulovane teorie (zobecneny SAT pro slozitejsi formule obsahujici veci jako cisla, datove struktury atd.)
+![[smt.png]]
+<!--ID: 1751063698208-->

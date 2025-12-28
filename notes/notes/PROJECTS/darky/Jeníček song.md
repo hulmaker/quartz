@@ -1,8 +1,7 @@
 ---
 tags:
-  - poetry
-  - AI
-  - youtube
+  - source/yt
+  - type/poetry
 ---
 [[Jan Jirák]]
 

@@ -1,8 +1,10 @@
 ---
 tags:
-  - travel
-  - MOC
+  - type/MOC
+  - on/place
+  - on/travel
 ---
+[[Cowork]], 
 # Hike
 [[Hike Gear List]]
 

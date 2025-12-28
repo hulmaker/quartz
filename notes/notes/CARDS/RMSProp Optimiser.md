@@ -1,10 +1,11 @@
 ---
 tags:
-  - ML
-  - AI
-  - paper
+  - on/ai
+  - source/paper
+  - on/algorithm
 link: https://paperswithcode.com/method/rmsprop
 ---
+
 RMSProp (Tieleman & Hinton, 2012),
 
 **RMSProp** is an unpublished adaptive learning rate optimizer [proposed by Geoff Hinton](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf). The motivation is that the magnitude of gradients can differ for different weights, and can change during learning, making it hard to choose a single global learning rate. RMSProp tackles this by keeping a moving average of the squared gradient and adjusting the weight updates by this magnitude. The gradient updates are performed as:

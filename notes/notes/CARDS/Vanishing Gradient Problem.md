@@ -1,6 +1,7 @@
 ---
 tags:
-  - ML
+  - on/ai
+  - source/wiki
 link: https://en.wikipedia.org/wiki/Vanishing_gradient_problem
 ---
 **Diminishing gradients during the training of deep neural networks**. It occurs when the gradients propagated backward through the layers become very small, making it difficult for the network to update the weights effectively.

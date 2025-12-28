@@ -1,4 +1,9 @@
-#note/tidy 
+---
+tags:
+  - on/ai
+  - note/tidy
+---
+
 [[Multi Layer Perceptron]], [[Convolutional Neural Networks (CNN)]], [[NI-MVI]]
 
 

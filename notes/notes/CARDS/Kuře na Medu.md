@@ -1,7 +1,8 @@
 ---
 tags:
-  - recipes
-  - food
+  - on/food
+  - type/recepie
+publish: true
 ---
 
 - Vezmi kuřecí

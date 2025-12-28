@@ -1,3 +1,10 @@
+---
+tags:
+  - on/ai
+  - on/algorithm
+  - on/DS
+---
+Used for: [[Undersampling]]
 
 NNG = Nearest Neighbour Graph
 MST = Minimum Spanning Tree

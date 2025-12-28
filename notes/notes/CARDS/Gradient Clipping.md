@@ -1,10 +1,9 @@
 ---
 tags:
-  - ML
+  - on/ai
+  - source/blog
 link: https://paperswithcode.com/method/gradient-clipping
 ---
-
-
 **Gradient Clipping** clips the size of the gradients to ensure optimisation performs more reasonably near sharp areas of the loss surface. Helps with the [[Exploding Gradient Problem]]
 
 

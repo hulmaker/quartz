@@ -1,7 +1,7 @@
 ---
 tags:
-  - psychology
-  - youtube
+  - on/psychology
+  - source/yt
 link: https://www.youtube.com/watch?v=WpoYqs9Hsa4
 author: HealthyGamerGG
 ---

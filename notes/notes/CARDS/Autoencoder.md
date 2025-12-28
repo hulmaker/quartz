@@ -1,6 +1,6 @@
 ---
 tags:
-  - ML
+  - on/ai
 ---
 [[Variational Autoencoder (VAE)]]
 

@@ -1,6 +1,10 @@
 ---
 tags:
-  - drink
+  - on/food
+  - type/list
+  - on/place
+  - on/travel
+  - note/develop
 ---
 
 

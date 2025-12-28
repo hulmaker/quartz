@@ -1,6 +1,7 @@
 ---
 tags:
-  - ML
+  - on/ai
+  - source/blog
 link: https://neptune.ai/blog/vanishing-and-exploding-gradients-debugging-monitoring-fixing
 ---
 Related to the [[Vanishing Gradient Problem]]

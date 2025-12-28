@@ -1,3 +1,9 @@
+---
+tags:
+  - on/workout
+  - type/plan
+---
+
 # morotugavo 5km
 https://en.mapy.cz/s/morotugavo
 50.1254825N, 14.4694997E

@@ -1,11 +1,14 @@
 ---
 tags:
-  - MOC
+  - on/workout
+  - type/MOC
 ---
 [[Hike Gear List]]
-[[Bike]]
+[[Bike]], [[Canyon Endurace 7 RAW]]
 [[Snowboard]]
-[[running]]
-[[FabiClub]]
+[[Running]]
+[[FabiClub]], [[Gym - Workout]]
 [[101 Goals]]
-[[Flexibility, Mobility]]
+[[Flexibility, Mobility]], [[Stretching protocol]]
+[[Heart Rate Variability]]
+[[Training When Sick]]

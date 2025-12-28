@@ -1,5 +1,12 @@
+---
+tags:
+  - on/ai
+  - on/statistics
+  - note/tidy
+  - on/DS
+---
+
 [[Undersampling]]
-#note/tidy
 [[NI-PDD]], [[NI-ZI-04]]
 
 Máme nevybalancovaný dataset, hrozí overfitting. Můžeme použít tyto metody.

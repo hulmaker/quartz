@@ -1,6 +1,8 @@
 ---
 tags:
-  - psychology
+  - on/psychology
+  - note/develop
+  - todo/finish
 link:
 ---
 ## Past

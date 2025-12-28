@@ -1,7 +1,4 @@
-[Magnetické kuličky NeoCube](https://silnemagnety.cz/kat/neocube/)
-
-[LockPickTools.cz](https://www.lockpicktools.cz/)
-
-[FerroFluid Display Toy Bottle Filled with Ferro Fluid liquid metal](https://www.amazon.com/dp/B07XTP99V1?psc=1&linkCode=sl1&tag=jaengineering-20&linkId=75b3ed2c2d877f5b8292628bf784b6ec&language=en_US&ref_=as_li_ss_tl)
-
-[Magnetic Levitating Floating Wireless LED Light Bulb Desk Lamp](https://www.amazon.com/dp/B07Q7W5CLK?psc=1&linkCode=sl1&tag=jaengineering-20&linkId=e87639ff3c938c311bfdb5f4eb26dbf8&language=en_US&ref_=as_li_ss_tl)
+- [Magnetické kuličky NeoCube](https://silnemagnety.cz/kat/neocube/)
+- [LockPickTools.cz](https://www.lockpicktools.cz/)
+- [FerroFluid Display Toy Bottle Filled with Ferro Fluid liquid metal](https://www.amazon.com/dp/B07XTP99V1?psc=1&linkCode=sl1&tag=jaengineering-20&linkId=75b3ed2c2d877f5b8292628bf784b6ec&language=en_US&ref_=as_li_ss_tl)
+- [Magnetic Levitating Floating Wireless LED Light Bulb Desk Lamp](https://www.amazon.com/dp/B07Q7W5CLK?psc=1&linkCode=sl1&tag=jaengineering-20&linkId=e87639ff3c938c311bfdb5f4eb26dbf8&language=en_US&ref_=as_li_ss_tl)

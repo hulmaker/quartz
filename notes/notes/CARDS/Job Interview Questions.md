@@ -1,3 +1,9 @@
+---
+tags:
+  - on/business
+  - type/list
+---
+
 ### 26 questions
 1. Tell me about yourself.
 2. What is your greatest strength?

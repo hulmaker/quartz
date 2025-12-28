@@ -1,10 +1,11 @@
 ---
 tags:
-  - productivity
-  - youtube
-  - workout
+  - source/yt
+  - on/workout
+  - on/health
 date: 2024-07-07
 link: https://youtu.be/evP82b_RtJU?si=KtUlcd-BGTkUWM0_
+author: Dr. Mike Israetel
 ---
 # Mild peripheral-only symptoms
 * runny nose, minor sore throat, but you feel **STRONG** (NO fever)

@@ -1,5 +1,9 @@
-#note/tidy 
-
+---
+tags:
+  - on/mathematics
+  - on/statistics
+  - on/DS
+---
 ## Linear projections
 [[NI-PDD]], [[NI-ZI-06]]
 

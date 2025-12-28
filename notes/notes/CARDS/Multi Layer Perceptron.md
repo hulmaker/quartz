@@ -1,4 +1,7 @@
-#note/tidy 
+---
+tags:
+  - on/ai
+---
 [[NI-MVI]], [[NI-ZI-07]]
 
 ## Perceptron

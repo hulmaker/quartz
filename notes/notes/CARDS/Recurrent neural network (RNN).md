@@ -1,6 +1,11 @@
+---
+tags:
+  - on/ai
+  - note/tidy
+---
+
 [[NI-MVI]]
 [[Multi Layer Perceptron]]
-#note/tidy 
 
 
 ## Early RNNs

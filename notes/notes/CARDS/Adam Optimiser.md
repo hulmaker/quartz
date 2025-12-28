@@ -1,8 +1,7 @@
 ---
 tags:
-  - paper
-  - ML
-  - AI
+  - on/ai
+  - source/paper
 link: https://arxiv.org/pdf/1412.6980
 ---
 Adam (adaptive moment estimation) is an algorithm for first-order gradient-based optimisation of stochastic objective functions, based on adaptive estimates of lower-order moments.

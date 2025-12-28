@@ -1,9 +1,10 @@
 ---
 tags:
-  - tutorial
-  - LLM
-  - productivity
-  - AI
+  - on/ai
+  - on/productivity
+  - type/tutorial
+  - on/llm
+  - note/question
 date: 2024-05-22
 ---
 

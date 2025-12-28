@@ -1,9 +1,9 @@
 ---
 tags:
-  - drink
-  - food
-  - MOC
-  - recipes
+  - on/food
+  - type/MOC
+  - type/recepie
+publish: true
 ---
 * [[Medovina - Mead]]
 * [[Apple Cider]]

@@ -172,7 +172,8 @@ x_t &= A x_{t-1} + B u_t + w_t, \\
 y_t &= H x_t + \varepsilon_t,
 \end{aligned}
 $$
-šumové proměnné: $w_t \sim \mathcal{N}(0, Q), \varepsilon_t \sim \mathcal{N}(0, R)$
+kde $X_t$ je **stav**, $y_t$ jsou naměřené hodnoty, $u_t$ je **řídící veličina**, $w_t$ a $\varepsilon_t$ jsou **šum stavu** a **šum měření** a $A_t, B_t$ a $H_t$ jsou matice patřičných rozměrů.
+Šumové proměnné: $w_t \sim \mathcal{N}(0, Q), \varepsilon_t \sim \mathcal{N}(0, R)$
 Normalita není nutná pro KF, ale my ji potřebujeme, z toho vidíme že:
 $$
 \begin{alignat}{2}
@@ -301,7 +302,6 @@ Váhy pak normalizujeme aby se sčítaly do jedné.
 
 
 
-
 Algoritmus importance sampling v bayesovské teorii #flashcard 
 Celý algoritmus je o určování vah, které pak používáme např. při výpočtu integrálů.
    1. Nagenerujeme $N$ vzorků z proposal hustoty: $x_i \sim g(x)$.
@@ -321,16 +321,6 @@ Pokud máme vzorky (realizace) $\{x_i\}_{i=1}^N = \{x_1, \ldots, x_N\}$ na množ
 \eta^N(x) = \frac{1}{N} \sum_{i=1}^N \delta_{x_i}(x).
 $$
 <!--ID: 1729010154039-->
-
-
-
-Algoritmus Sequential Importance Sampling Filteru #flashcard 
-1.  Navzorkujeme $x_0^{(i)}$ z vhodné apriorní distribuce $\pi(x_0)$ a přiřadíme jim rovnoměrné váhy $w_0^{(i)} = 1/N$
-2.  Pro $t=1,2,\ldots$:
-    -   Predikce: navzorkujeme nová $x_t^{(i)}$ z hustoty $f_t(x_t|x_{t-1}^{(i)})$
-    -   Update: přepočítáme váhy $w_t^{(i)} = w_{t-1}^{(i)} g(y_t|x_t^{(i)})$ a normalizujeme je $w_t^{(i)} \leftarrow w_t^{(i)}/\sum_j w_t^{(j)}$
-    -   Odhad střední hodnoty $\mathbb{E}[x_t|\cdot] = \sum_{i=1}^{N}w_{t}^{(i)} x_t^{(i)}$
-<!--ID: 1729010154040-->
 
 
 

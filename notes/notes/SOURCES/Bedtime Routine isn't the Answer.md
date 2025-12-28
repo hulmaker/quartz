@@ -1,3 +1,12 @@
+---
+tags:
+  - source/yt
+  - on/psychology
+  - on/productivity
+author: HealthyGamerGG
+link: https://www.youtube.com/watch?v=RgkluvWPmeY&t=17s
+---
+
 https://www.youtube.com/watch?v=RgkluvWPmeY&t=17s
 https://en.wikipedia.org/wiki/Bedtime_procrastination
 

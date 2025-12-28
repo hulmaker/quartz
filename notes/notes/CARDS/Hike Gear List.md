@@ -1,3 +1,9 @@
+---
+tags:
+  - on/travel
+  - type/list
+publish: true
+---
 ### Cennosti
 - [ ] Kamera / foťák
 - [ ] Hotovost, dokumenty
@@ -11,17 +17,17 @@
 - [ ] buzlola / kompas, mapa
 
 ### Oblečení
-- [x] Insulation layer
-- [x] Batoh
-- [x] Kalhoty, Kraťasy
-- [x] Větrovka
-- [x] Boty
-- [x] Pláštěnka
-- [x] Čelovka
-- [x] Sluneční brýle
-- [x] Ponožky, trenky
-- [x] Buff / čepice
-- [x] Kšiltovka
+- [ ] Insulation layer
+- [ ] Batoh
+- [ ] Kalhoty, Kraťasy
+- [ ] Větrovka
+- [ ] Boty
+- [ ] Pláštěnka
+- [ ] Čelovka
+- [ ] Sluneční brýle
+- [ ] Ponožky, trenky
+- [ ] Buff / čepice
+- [ ] Kšiltovka
 - Sandály / lehčí boty?
 - Hůlky?
 

@@ -146,7 +146,7 @@ Marice $A$ je podobná matici $B$, právě když existuje invertibilní matice $
 
 
 
-Popis matice v SVD rozkladu. Rekni k cemu je a na co se da toreticky pouzit #flashcard 
+Popis matic v SVD rozkladu. Rekni k cemu jednotlive matice slouzi a na co se daji pouzit #flashcard 
 $A = U \Sigma V^T$, kde $U$ i $V^T$ jsou ortogonalni, $\Sigma$ je diagonalni matice, co ma na diagonale singular values $\sigma$, pro ktere plati, ze $\sigma^2$ je vl. cislo matice $AA^T, A^TA$.
 Zaroven plati, ze $AA^T = U \Sigma^2 U^T$ a $A^TA = V \Sigma^2 V^T$.
 pomoci SVD rozkladu se da resit homogeni LSS -> $Xw^T = \theta$ - takhle jsem napr hledal homografii v MPV
@@ -156,7 +156,9 @@ Kazda matice se da takhle rozlozit - $U$-rotace, $\Sigma$-stretch, $V^T$-rotace
 
 
 Jaky je vztah mezi matici $V$ a $U$ v SVD? #flashcard 
+$A = U \Sigma V^T$
 $u_i = \frac{1}{\sigma_i} Av_i$
+kde $u_i$ je vektor z $U$ a $v_i$ je z $V$
 <!--ID: 1729010153991-->
 
 
@@ -205,15 +207,14 @@ kde $f: D \to \mathbb{R}, g: D \to \mathbb{R}^p, h: D \to \mathbb{R}^m$, kde $D 
 
 
 
-Popiš klasifikace optimalizačních úloh #flashcard 
+Do jakých kategorií rozdělujeme optimalizační úlohy? (minimalizuj $f(x)$, za podmínek $g(x)=0, h(x) \leq 0$) #flashcard 
 minimalizuj $f(x)$, za podmínek $g(x)=0, h(x) \leq 0$
 1) **nelineární programování** (nonlinear programming - NLP): předpokládáme spojitou diferencovatelnost (někdy i dvojitou)
-2) **lineární programovnání** (linear programming - LP): $f, g$ a h jsou afinní funkce
+2) **lineární programování** (linear programming - LP): $f, g$ a h jsou afinní funkce
 3) **kvadratické programování** (quadratic programming LP): $f$ je kvadratická (tj.$f(x) = a^T\cdot x +\frac{1}{2}x^T\cdot B\cdot x$), kde $g, h$ jsou afinní funkce)
-4) **konvexní optimalizace** (convex optimization): $f$ je konvexní na $M$ - množina připustných řešení
-5) **nehladká optimalizace** (non-smooth optimization): některá z funkcí není diferencovatelnáa)(smíšené) celočíselné programování a jeho varianty
+4) **konvexní optimalizace** (convex optimization): $f$ je konvexní na $M$ - množina přípustných řešení
+5) **nehladká optimalizace** (non-smooth optimization): některá z funkcí není diferencovatelná)(smíšené) celočíselné programování a jeho varianty
 <!--ID: 1729010153997-->
-
 
 
 
@@ -223,11 +224,10 @@ Měla by být dvakrát spojitě diferencovatelná. Abychom mohli použít ty obl
 
 
 
-Optimalizační metoda, kdy iterujeme přes posloupnost aproximací konvergující k nějakému minimu. Jaké základní metody pro počítání následující aproximace máme? #flashcard 
+Uvažuj libovolnou optimalizační metodu, kdy iterujeme přes posloupnost aproximací konvergující k nějakému minimu. Jaké základní metody pro počítání následující aproximace máme? #flashcard 
 **line-search** - Následující aproximaci hledáme v nějakém daném směru $p_k$, směr se dá volit např. jako směr největšího spádu, newtonova metoda atd.
 **region-trust** - Na okolí bodu $x_k$ vytvoříme nějakou aproximaci funkce $f$, označené $m_k$, a hledáme minimum této aproximace $m_k$ na okolí bodu $x_k$ 
 <!--ID: 1729010153999-->
-
 
 
 Jaké jsou možné podmínky pro volbu délky kroku v line-search optimalizaci? #flashcard 
@@ -262,20 +262,20 @@ typ line-search metody, kdy směr následujícího kroku volíme jako směr, ve 
 
 
 
-Jaká je obecná myšlenka Newton method? - optimalizace #flashcard 
+Jaká je obecná myšlenka Newton method v kontextu optimalizace? #flashcard 
 Předpokládá komplikovanou ztrátovou funkci. Aproximuje jí Taylorem 2. řádu a hledá minimum. Jelikož to je polynom, tak tu rovnici zvládneme vyřešit relativně snadno.
 parciální derivace, gradient = 0, normální rovnice atd.
 <!--ID: 1729010154004-->
 
 
 
-Taylorův polynom 2. stupně pro funkci $f(x_k + p)$ #flashcard 
+Napiš vzorec pro Taylorův polynom 2. stupně pro funkci $f(x_k + p)$ #flashcard 
 $f\left(x_{k}+p\right) \approx f\left(x_{k}\right)+\nabla f\left(x_{k}\right)^{T} p+\frac{1}{2} p^{T} \nabla^{2} f\left(x_{k}\right) p=m_{k}\left(x_{k}+p\right)$
 <!--ID: 1729010154005-->
 
 
 
-Odvoď směr $p_k$ v Newtonově metodě (optimalizace) #flashcard 
+Pomocí Newtonovy metody minimalizujeme funkci. Jsme v iteraci $k$, máme tedy parametry $x_k$ a potřebujeme určit směr dalšího kroku $p_k$. Odvoď jej. #flashcard 
 Taylorův polynom 2. stupně funkce $f\left(x_{k}+p\right)$
 $m_{k}\left(x_{k}+p\right) = f\left(x_{k}\right)+\nabla f\left(x_{k}\right)^{T} p+\frac{1}{2} p^{T} \nabla^{2} f\left(x_{k}\right) p$
 hledáme $p_{k}=\underset{p}{\operatorname{argmin}} m_{k}\left(x_{k}+p\right)$
@@ -288,43 +288,14 @@ Předpokládáme, že $\nabla^2(fx_k)$ je regulární
 
 
 
-Co se stane, když v Newtonově metodě není $\nabla^2(fx_k)$ pozitivně definitní? (optimalizace) #flashcard 
-není zaručeno, že je $p_k$ spádový směr.
-<!--ID: 1729010154007-->
-
-
-
-Hlavní myšlenka Kvazinewtonových metod? (optimalizace) #flashcard 
+Hlavní myšlenka Kvazinewtonových metod? K čemu jsou užitečné? (optimalizace) #flashcard 
 Kvazinewtonovské metody nějakým způsobem aproximují matici $\nabla^2(fx_k)$ a snaží se tak vylepšit celkově algoritmus, například tím, že matice $B_{k+1}$ se napočítává aktualizací matice $B_k$.
 Je to další aproximace, ale velmi výrazně snižuje koplexitu algoritmu. Dá se ukázat, že má podobné vlastnosti jako Newtonova metoda a že konverguje.
 <!--ID: 1729010154008-->
 
 
 
-Je pravda, že least-squares problem je speciální případ obecné konvexní optimalizace? (optimalizace) #flashcard 
-Ano, je to pravda
-<!--ID: 1729010154009-->
-
-
-
-Je pravda, že konvexní optimalizace je speciální případ lineárního programování? (optimalizace) #flashcard 
-Ne, není to pravda. 
-Lineární programování je speciální případ obecné konvexní optimalizace.
-<!--ID: 1729010154010-->
-
-
-
-Je pravda, že se dá každý problém převást na obecný konvexní problém? (optimalizace) #flashcard 
-Ne, není to pravda. 
-Je složité poznat, že se dá problém převést na konvexní a je často složité ho poté převést. Když to zvládneme, je už relativně rozumně řešitelný.
-Ne vše jde převést na obecný konvexní problém, takové problémy se řeší pomocí nonlinear optimization, na kterou neexistují žádné skutečně efektivní řešení. (global optimization může být i exponenciální)
-počteníčko: https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
-<!--ID: 1729010154011-->
-
-
-
-Definuj konvexní množinu $\Omega \in \mathbb{R}^n$ a konvexní funkci $f: \Omega 
-\to \mathbb{R}$ (optimalizace) #flashcard 
+Definuj konvexní množinu $\Omega \in \mathbb{R}^n$ a konvexní funkci $f: \Omega  \to \mathbb{R}$ (optimalizace) #flashcard 
 Množina je konvexní, pokud $\alpha x + (1-\alpha)y \in \Omega$
 pro $\forall x, y \in \Omega$ a $\forall \alpha \in [0, 1]$ (pro každé dva body lezí všechny body na úsečce mezi nimi v množině. (kružnice, elipsa atd))
 funkce je konvexni, pokud $\Omega$ jek onvexni a pokud $f(\alpha x + (1-\alpha )y) \leq \alpha f(x) + (1-\alpha)f(y)$
@@ -332,8 +303,7 @@ funkce je ryze konvexni, pokud je tam ostra nerovnost.
 <!--ID: 1729010154012-->
 
 
-
-Dej mi charakteristické vlastnosti konvexních množin  (optimalizace) #flashcard 
+Jaké jsou charakteristické vlastnosti konvexních množin  (optimalizace) #flashcard 
 * $c \in \mathbb{R}, \{x \in \Omega | f(x) \leq c \}$ je konvexní (sublevel set), kde konvexní $f:\Omega \to \mathbb{R}$
 * Průnik (ne)konečně mnoha konv. množin je konvexní
 * Afinní zobrazení konvexní množiny je konvexní
@@ -343,33 +313,3 @@ Dej mi charakteristické vlastnosti konvexních množin  (optimalizace) #flashca
 
 
 #note/develop  - extrapoluj informace s konvexni optimalizace - k cemu je atd, nejake principy. To same pro lagrangeovy funkce atd.
-## Lec 09 - 20.04.2021 - Optimalizace 3
-
-(optimalizace) Napiš rovnici pro gradient pro konvexní kvadratickou funkci $f(x) = a^T \cdot x + \frac{1}{2}x^T \cdot B \cdot x$, kde $x$ je nějaký vektor a $B$ je matice #flashcard 
-$\nabla(a^T \cdot x) = a$
-$\nabla(\frac{1}{2}x^T \cdot B \cdot x) = \nabla(\frac{1}{2} \sum_{i, j} B^{ij}x_ix_j) = B_{kk}x_k + \frac{1}{2} \sum_{j \neq k} B_{kj}x_j = Bx$
-$\nabla f(x) = a + Bx$
-<!--ID: 1729010154014-->
-
-
-
-(optimalizace) Definuj druhotnou Lagrangeovu funkci v kontextu se standartním optimalizačním problémem. #flashcard 
-minimalizuj $f(x)$,
-za podmínek $g(x)=0, h(x) \leq 0$
-kde $f: D \to \mathbb{R}, g: D \to \mathbb{R}^p, h: D \to \mathbb{R}^m$, kde $D \subset \mathbb{R}^n$
-přípustná řešení $M = \{x \in D: g(x) = 0 \land h(x) \leq 0\}$
-Příslušná Lagrangeova funkce:
-$L(x, \lambda, \mu) = f(x) + \lambda^T \cdot g(x) + \mu^T \cdot h(x)$
-kde $\lambda$ a $\mu$ jsou vektory Lagrangeových multiplikátorů (**druhotných proměnných**)
-Lagrangeova druhotná funkce: $q(\lambda, \mu)=\inf _{x \in D} L(x, \lambda, \mu)$
-<!--ID: 1729010154015-->
-
-
-
-(optimalizace) Uveď postačující podmínky existence lokálního ostrého minima pomocí Karushovy-Kuhnovy-Tuckerovy (KKT) podmínky. (aspoň vágně, vystihni princip) #flashcard 
-Je-li $x^*$ řešení problému nelineárního programování a gradienty $\nabla f(x^∗), \nabla g_j(x^∗)$ a $\nabla h_j(x^∗)$ existují a je splněna podmínka $CQ$, (constraint qualification - gradienty jsou LN (jinak je reseni nekonecne mnoho)) potom existují $λ^*$ a $μ^∗$ takové, že
-1) $\nabla f\left(x^{*}\right)+\sum \lambda_{i}^{*} \nabla g_{i}\left(x^{*}\right)+\sum \mu_{j}^{*} \nabla h_{j}\left(x^{*}\right)=0$ (optimalita)
-2) $\left(\mu^{*}\right)^{T} h_j\left(x^{*}\right)=0$ (zkráceně $\mu^* = 0 \lor h_j(x^*) = 0$ KKT podminka)
-3) $\mu^{*} \geq 0$
-U této otázky by bylo nejlepší vědět intiuitivně co co znamená, jinak si otevřít materiály a pochopit to.
-<!--ID: 1729010154016-->

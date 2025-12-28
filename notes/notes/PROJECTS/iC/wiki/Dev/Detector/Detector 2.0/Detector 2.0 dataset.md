@@ -41,8 +41,3 @@ val: 15
 # batch3 stats
 num boxes
 `{'0': 10143, '1': 103, '3': 2, '6': 11, '2': 7, '4': 1, '5': 7}`
-
-#python #iC 
-#recipes #script 
-
-

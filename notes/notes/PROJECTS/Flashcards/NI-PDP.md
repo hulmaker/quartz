@@ -52,7 +52,7 @@ Vlákna sice zapisují na různé adresy, ale adresy jsou si tak blízké, že j
 
 
 
-Do jakých kategorií dělíme přímé propojovací sítě paralelních počítačů vlastnosti? #flashcard 
+Jaké propojovací sítě paralelních počítačů znáš? Rozřaď je do kategorií dle jejich vlastnosí. #flashcard 
 **Ortogonální topologie**: Konstruktor je kartézský součin.
 * Binární hyperkrychle - hypercube
 * Mřížky - mesh

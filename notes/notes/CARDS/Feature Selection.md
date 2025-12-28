@@ -1,5 +1,10 @@
+---
+tags:
+  - on/ai
+  - note/tidy
+  - on/DS
+---
 [[NI-PDD]]
-#note/tidy 
 [[NI-ZI-04]]
 
 - cílem je vybrat ty hodnoty, které nesou největší informační hodnotu, nejlépe oddělují data

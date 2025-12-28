@@ -1,8 +1,9 @@
 ---
 tags:
-  - MOC
+  - type/MOC
+  - type/list
 ---
-# iC
+# People - iC
 * [[CARDS/People/Filip Naiser|Filip Naiser]]
 * [[Filip Bucek]]
 * [[Adam Petr]]
@@ -16,9 +17,15 @@ tags:
 * [[Marek Votrubek]]
 * [[Vojtěch Naiser]]
 
-# Fashtag
+# People - Fashtag
 - [[Vlado Erdman]]
 
+# People - RailState
+* [[Ondřej Pacovský]]
+* Martin Hora - hubenej
+* Jan Kolomaznik - fousatej
+* Vojta ...
+* Adam Junek?
 # TODO
 * Ondřej Hlaváč
 * Jan Jirák

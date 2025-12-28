@@ -1,11 +1,12 @@
 ---
 tags:
-  - recipes
-  - food
+  - on/food
+  - type/recepie
+publish: true
 ---
-## Air fryer
+# Air Fryer
 
-### Simple
+## Simple Spice Rub - best ever
 [link](https://www.youtube.com/watch?v=FD3aG6T7R9E)
 rating: mega good
 1. dry it with paper towel
@@ -15,12 +16,13 @@ rating: mega good
 5. preheat, 205 C, 10min
 6. citron
 
-### Mayo salmon - TODO
-rating: ?
-[link](https://youtube.com/shorts/av0V5xeRLb4?si=qma_dHyHb72k_xf7)
-1. salt, peper
-2. Obal to v majonéze
-3. Nastrouhej na to parmazán
-4. air fry the shit out of it
+## Mayo salmon
+rating: good (ale spice rub je better :D)
+[blog](https://tiffycooks.com/air-fryer-salmon-15-minutes-only/), [link](https://youtube.com/shorts/av0V5xeRLb4?si=qma_dHyHb72k_xf7)
 
+Marináda: **Japanese Mayo, lemon juice, soy sauce, paprika, lemon zest and pepper**
+1. Osol lososa (neboj se toho)
+2. Obal to v majonéze (vrstva jako na toastik)
+3. Nastrouhej na to parmazán
+4. pre-heat 205C, pod to dej paper, bake for 12-15min
 

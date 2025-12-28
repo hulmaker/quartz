@@ -1,3 +1,10 @@
+---
+tags:
+  - type/list
+  - type/poetry
+---
+Related to: [[Nesprostý Slovník]]
+
 bakšišák
 bambula
 bemák

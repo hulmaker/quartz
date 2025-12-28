@@ -1,3 +1,7 @@
+https://centrumradius.cz/ai-club/
+https://centrumradius.cz/ai-club-2/
+
+
 Odkazy:
 * [fast.ai](https://www.fast.ai/) - courses, framework
 * [kaggle](https://www.kaggle.com/) - datasets, competetions, data science

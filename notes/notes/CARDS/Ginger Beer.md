@@ -1,7 +1,7 @@
 ---
 tags:
-  - recipes
-  - drink
+  - on/food
+  - type/recepie
 ---
 Doporučeno od Petra Šejvla (dělá to jeho brácha Ondra)
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - on/life
+  - on/productivity
+---
+
 Dopsat meditaci
 Video o motivaci, dopaminu proč jsou večer věci lehčí
 Rozepsat plánování
@@ -17,7 +23,7 @@ Ráno má často velký vliv na průběh dne. V kolik hodin rozjedeme dopaminov�
 ### Požadavky:
 * Bohatá snídaně
 * hodinu bez displaye, po probuzení nekoukat do mobilu - dělej věci co jsou potřeba (zuby, plánování, meditace, sprcha, procházka atd)
-* [[Meditace]]
+* [[Meditation]]
 * Rámcové sepsání úkolů. - není to plán. Plán na celý den mi skoro nikdy nevyjde. Zafixuje pouze nutné eventy a zbytek měj flexibilní. Plánuj hodinu dopředu
 
 # Dopoledne

@@ -41,14 +41,12 @@ autokovariance: $\gamma(t_1, t_2) = \operatorname{cov}(X_{t_1}, X_{t_2}) = \math
 
 
 
-Aditivní a multiplikativní dekompozice časových řad. #flashcard 
+Popiš aditivní a multiplikativní dekompozice časových řad. #flashcard 
 Časovou řadu lze často rozložit na jednotlivé uvedené složky, přičemž cyklické změny a nepravidelné fluktuace se sloučí do jedné.
 **aditivní**: $Y_t = T_t + S_t + E_t$,
 **multiplikativní**: $Y_t = T_t \cdot S_t \cdot E_t$,
 kde $Y_t$ je pozorovaná veličina v čase $t$, $T_t$ je hodnota trendu, $S_t$ je sezónní složka a $E_T$ nevysvětlená složka. V aditivních modelech obecně platí, že amplituda sezónních složek je přibližně stejná, zatímco v multiplikativních se s rostoucím trendem zvyšuje i sezónní amplituda (a naopak). 
 <!--ID: 1729010153952-->
-
-
 
 
 # Druhy stacionarity a rozdíl mezi nimi
@@ -63,11 +61,10 @@ Budeme-li tedy uvažovat $n=1$, potom striktní stacionarita znamená, že distr
 <!--ID: 1729010153953-->
 
 
-
 # Základní vlastnosti náhodné procházky a bílého šumu
 
 
-Definujte časovou řadu a určete její vlastnosti - bílý šum #flashcard 
+Definujte časovou řadu pro bílý šum a určete její vlastnosti. #flashcard 
 [Bílý šum](https://en.wikipedia.org/wiki/White_noise) je náhodný proces $\{X_t\}$, kde
 $$
 \begin{aligned}
@@ -82,7 +79,7 @@ Je striktně stacionární, nemá sezónost ani cyklické změny
 
 
 
-Definujte časovou řadu a určete její vlastnosti - náhodná procházka #flashcard 
+Definujte časovou řadu náhodné procházky a určete její vlastnosti. #flashcard 
 Uvažujme diskrétní bílý šum $Z_t \sim \mathcal{L}(0, \sigma^2)$. Proces $\{X_t\}$ nazýváme [náhodnou procházkou](https://en.wikipedia.org/wiki/Random_walk), pokud
 $$
 \begin{aligned}
@@ -114,7 +111,7 @@ Funkce, která vrací korelaci hodnot časové řady v různých časových okam
 
 
 
-Jak se dá interpretovat parcilání korelační koeficient? #flashcard 
+Co je to parcilání korelační koeficient a jak se dá interpretovat pomocí OLS? #flashcard 
 Mám veličinu $X$, $Y$, $Z$. Chci změřit parciální korelaci mezi $X$ a $Z$, ale chci odstranit lineární vliv $Y$ na hodnoty $X$ a $Z$.
 1. Proložím regresní přímku mezi $X$ a $Y$
 2. Proložím regresní přímku mezi $Z$ a $Y$
@@ -210,21 +207,6 @@ Diferencováním se můžeme zbavovat trendu. Typicky nám stačí diferencovat 
 
 
 
-Jak vypadá operátor zpoždění B a operátor difference $\Delta$? #flashcard 
-$$
-\begin{aligned}
-& BX_t = X_{t-1} \\
-& B^{-1}X_t = X_{t+1} \\
-& \Delta X_t = X_t - X_{t-1} = (1-B)X_t \\
-& \Delta^kX_t = (1-B)^kX_t
-\end{aligned}
-$$
--   umožňují snadný zápis charakteristických polynomů při vyšetřování stacionarity AR a invertibility MA procesu.
--   jde s nimi dělat různá algebraická kouzla díky komutativitě $B(\beta X_t)=\beta B X_t$ distributivitě atd.
-<!--ID: 1729010153969-->
-
-
-
 Co ověřuje Z-test koeficientů (SCR)? #flashcard 
 Test ověřuje nenulovost jednotlivých koeficientů modelu, např. pro ARMA(1,0) máme hypotézu o AR koeficientu $\phi_1$ v 1. zpoždění v podobě
 $$
@@ -245,17 +227,15 @@ $H_0$ říká, že jsou data nekorelovaná a nezávislá. (A časové řady se t
 
 
 
-Co ověřuje test heteroskedasticity? #flashcard 
-Je to test nad časovými řadami.
-$H_0$ říká, že standardizovaná rezidua (chyby predikce) jsou heteroskedastická. Heteroskedasticita je opak homoskedasticity. Řada je homoskedastická, pokud má konstantní rozptyl. Řada je heteroskedastická, pokud se rozptyl mění.
-<!--ID: 1729010153972-->
-
-
-
 Definuj heteroskedasticitu u časových řad. #flashcard 
 Heteroskedasticita je opak homoskedasticity. Řada je homoskedastická, pokud má konstantní rozptyl. Řada je heteroskedastická, pokud se rozptyl mění.
 <!--ID: 1729010153973-->
 
+
+Co ověřuje test heteroskedasticity? #flashcard 
+Je to test nad časovými řadami.
+$H_0$ říká, že standardizovaná rezidua (chyby predikce) jsou heteroskedastická. Heteroskedasticita je opak homoskedasticity. Řada je homoskedastická, pokud má konstantní rozptyl. Řada je heteroskedastická, pokud se rozptyl mění.
+<!--ID: 1729010153972-->
 
 
 Co ověřuje Jarque-Bera test? #flashcard 

@@ -1,8 +1,9 @@
 ---
 tags:
-  - ML
-  - AI
-  - paper
+  - on/ai
+  - on/algorithm
+  - source/paper
+  - note/tidy
 link: https://arxiv.org/pdf/2306.06101
 ---
 [github](https://github.com/konstmish/prodigy)

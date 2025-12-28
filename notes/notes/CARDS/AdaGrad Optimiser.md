@@ -1,7 +1,7 @@
 ---
 tags:
-  - ML
-  - paper
+  - on/ai
+  - source/paper
 link: https://paperswithcode.com/method/adagrad
 ---
 AdaGrad (Duchi et al., 2011)

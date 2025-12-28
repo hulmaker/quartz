@@ -1,7 +1,8 @@
 ---
 tags:
-  - ML
-  - CV
+  - on/ai
+  - source/blog
+  - on/CV
 link: https://en.wikipedia.org/wiki/Local_binary_patterns
 ---
 [[Keypoint Descriptor]]

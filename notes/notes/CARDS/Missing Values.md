@@ -1,4 +1,10 @@
-#note/tidy , #note/develop 
+---
+tags:
+  - on/ai
+  - note/tidy
+  - note/develop
+  - on/DS
+---
 [[NI-ZI-05]], [[NI-PDD]]
 
 

@@ -8,7 +8,8 @@ birthday: "1992"
 ---
 E. Beneše 1167/14, Svitavy 568 02
 #### Interests
-#AI #ML #CV Guitar, Jordan Peterson, Whiskey, Guitar (Trilobajt - Čeněk), Biohacking, teaching
+#on/ai #on/CV 
+Guitar, Jordan Peterson, Whiskey, Guitar (Trilobajt - Čeněk), Biohacking, teaching
 
 sport: running, cycling, gym, sauna, cold shower
 

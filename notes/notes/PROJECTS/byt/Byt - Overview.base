@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "PROJECTS/byt"
+        - '!file.name.startsWith("Byt - Overview")'
+    order:
+      - file.name
+      - Oblast
+      - State
+      - Cena
+      - Cena m^2
+    sort:
+      - property: Verdikt
+        direction: DESC
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.State: 106
+      note.Cena: 99

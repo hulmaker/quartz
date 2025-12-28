@@ -1,7 +1,13 @@
-[[NI-PDD]]
+---
+tags:
+  - on/ai
+  - on/statistics
+  - note/tidy
+  - on/DS
+---
+
 [[Oversampling]]
-[[NI-ZI-04]]
-#note/tidy 
+[[NI-PDD]], [[NI-ZI-04]]
 
 Máme nevybalancovaný dataset, hrozí overfitting. Můžeme použít tyto metody.
 * **under sampling** - odeberu nějaké datové body z dominantních tříd

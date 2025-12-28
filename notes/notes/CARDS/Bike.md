@@ -1,3 +1,11 @@
+---
+tags:
+  - on/workout
+  - shopping
+---
+The bike I bought: [[Canyon Endurace 7 RAW]]
+
+
 https://www.youtube.com/watch?v=iGg3TrsPxOo
 
 **Delsi vyjizdky**: Chamois Cream (namazat na vnitrek kalhot)

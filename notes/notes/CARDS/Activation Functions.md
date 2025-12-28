@@ -1,3 +1,8 @@
+---
+tags:
+  - on/ai
+---
+
 # ReLU
 [wiki](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
 $y=max(0,x)$

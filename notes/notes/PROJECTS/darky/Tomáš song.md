@@ -1,8 +1,7 @@
 ---
 tags:
-  - poetry
-  - AI
-  - youtube
+  - type/poetry
+  - source/yt
 ---
 [[Tomáš Pěnkava]]
 # prompt

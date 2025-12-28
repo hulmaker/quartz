@@ -1,8 +1,10 @@
 ---
 tags:
-  - MOC
-  - finance
+  - type/MOC
+  - on/finance
 ---
+[[investicni plan]], [[101 Goals]]
+
 **ZP MV ČR** - zdravotko
 2110102031/0710
 VS: 9808010597

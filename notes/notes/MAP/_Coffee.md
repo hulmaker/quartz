@@ -1,28 +1,28 @@
 ---
 publish: true
 tags:
-  - drink
-  - coffee
-  - recipes
+  - on/food
+  - type/MOC
+  - type/recepie
 ---
+**Grinder**: timemore chestnut c3 pro. GS - means initial grinder settings 
 ## V60
-Temp: 100C light roast, colder dark roast
-Ratio: 60g/L
+- 60g/1000ml, 90C-100C, 
 
-- Rinse paper in V60 and pre heat it
-- Pour in coffee, make a well with your finger in the coffee bed
-- Start timer and gently pour 2x coffee dose as water to bloom (up to 3x coffee dose if necessary)
-- **SWIRL IT GOOD**
-- Wait 30 to 45 seconds
-- Spiral pour in 60% of total brew water in until 1:15 (i.e 60% of 500g, pour to 300g)
-- Keep it topped up, slowly pouring the rest of the brew water over 30 seconds. (i.e. 100% of brew water by 1:45)
-- Little stir in one direction, then a little stir in the opposite direction. (About 1 to 1.5 revolutions each way)
-- Once it has drained a bit, then **SWIRL IT**
-- Wait for the coffee to fully drain. You want a flat bed of coffee and no big grinds of coffee on the side of the filter paper.
+ 
+M := milliliters of water 
+G := grams of coffee = M * 6/100
+
+- Rinse paper, pre-heat V60
+- make a well in the coffee bed
+- 0:00 2G to 3G ml of water, swirl
+- 0:30 - 0:45 pour so the total volume of water in the system is 0.6M (over 45s)
+- 1:15 pour the rest of the water over 30s
+- 1:45 Stir in one direction, then opposite (1.5 circles), swirl
+- You want a flat bed of coffee and no big grinds of coffee on the side of the filter paper.
 
 ## Vacuum pot
-- 400g horke vody treba 90 stupnu
-- 30g kafe
+- 30g/400ml, 90C
 - zapni horak
 - polož vrchní díl tak aby netěsnil
 - až se začne voda vařit, utěsni vršek
@@ -31,8 +31,8 @@ Ratio: 60g/L
 - čekej 1:45s
 - vypni teplo a zamíchej 5x
 
-## Pulsar
-- 20g/320ml, 93C-94C
+## Pulsar - 14kliku?
+- 20g/320ml, 93C-94C, 13GS
 - 0:00 20g káva, 60ml voda, WDT
 - 0:30 dolít do 200ml vody
 - 1:00 ventil 3/4, dolít 320ml, ohýnek

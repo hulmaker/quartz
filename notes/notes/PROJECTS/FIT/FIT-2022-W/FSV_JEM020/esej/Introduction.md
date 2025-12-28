@@ -25,5 +25,3 @@ Budu se snazit zustat u zakladu subjektivni teorie hodnoty, ale nevyhnutelne se 
 Budeme probirat jenom VYBRANE aspekty, jelikoz jich je mnoho a pro ucely naseho textu nam snad postaci ty co me zrovna zajimaji.
 
 ## explanation of the structure of your essay
-
-#todo1
