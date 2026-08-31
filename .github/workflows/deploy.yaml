@@ -1,3 +1,5 @@
+
+
 name: Deploy Quartz site to GitHub Pages
  
 on:
@@ -20,7 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 0 # Fetch all history for git info
+          fetch-depth: 0
+          submodules: recursive
+      - name: Update content
+        run: |
+          git submodule update --remote content
       - uses: actions/setup-node@v6
         with:
           node-version: 24
