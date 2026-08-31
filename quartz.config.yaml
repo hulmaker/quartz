@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: hulmaker.github.io/quartz
   ignorePatterns:
     - private
     - templates
@@ -120,8 +120,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/og-image"
     enabled: true
+  # GitHub Pages project site: no custom domain, so no CNAME file.
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
