@@ -24,6 +24,10 @@ jobs:
         with:
           fetch-depth: 0
           submodules: recursive
+          # The `content` submodule points at the private repo hulmaker/notes.
+          # The default GITHUB_TOKEN is scoped to this repo only, so submodule
+          # cloning 404s. NOTES_TOKEN is a PAT with read access to both repos.
+          token: ${{ secrets.NOTES_TOKEN }}
       - name: Update content
         run: |
           git submodule update --remote content
